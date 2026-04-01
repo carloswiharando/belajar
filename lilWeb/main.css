@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+nav{
+    padding: 0;
+    display: flex;
+    grid-template-columns: 2;
+    background-color: hsl(216, 100%, 45%);
+    width: 100%;
+    min-height: 50px;
+    position: absolute;
+}
+#logo{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    margin: 0 10px;
+}
+#menuButton{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+button {
+    height: 100%;
+    width: 140px;
+    border: none;
+    size: 100%;
+    background-color: hsl(216, 100%, 45%);
+    border-left: 2px solid hsl(216, 100%, 40%);
+    color: antiquewhite;
+}
+button:hover {
+    cursor: pointer;
+    background-color: hsl(216, 100%, 55%);
+}
+button:active{
+    background-color: hsl(216, 100%, 35%);
+}
+div{
+    display: flex;
+    background-color: bisque;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+#greetWord{
+    text-align: center;
+    margin: 0;
+
+}
